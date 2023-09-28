@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  font-family: "Fira Sans";
+  box-sizing: border-box;
+}
+#app{
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  max-width: 1624px;
+  padding: 0 14px;
+  width: 100%;
+  margin: 0 auto;
+}
