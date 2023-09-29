@@ -83,6 +83,12 @@ const getSliceUrl = (url) => {
   align-items: center;
   justify-content: space-between;
   margin-top: auto;
+
+  @media only screen and (max-width: 480px){
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
   span,
   a {
     color: $grey;
